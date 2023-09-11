@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.bg-main-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  width: 60vw;
+  text-align: center;
+  padding: 20px;
+}
+.bg-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bg-container12 {
+  display: flex;
+  flex-direction: row;
+}
+.bg-container13 {
+  display: flex;
+  flex-direction: row;
+}
+.bg-mini-container1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bg-mini-container11 {
+  background-color: white;
+  padding: 10px;
+  width: 130px;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time-para {
+  color: #00d9f5;
+  font-weight: bold;
+}
+.paused-para {
+  color: #1e293b;
+  font-weight: 800;
+}
+.start-img {
+  height: 25px;
+}
+.start-para {
+  color: #1e293b;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.minus-btn {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 10px;
+}
+.bg-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-para2 {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  border-radius: 10px;
+  color: black;
+  font-weight: 650;
+  padding: 10px;
+  width: 80px;
+}
+.set-para {
+  color: black;
+  font-weight: 659;
+}
