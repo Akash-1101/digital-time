@@ -6,7 +6,7 @@ class DigitalTimer extends Component {
   state = {
     min2: 24,
     mins: 25,
-    sec2: 60,
+    sec2: 59,
     seconds: 0,
     timerlimit: 25,
     startState: true,
@@ -25,7 +25,7 @@ class DigitalTimer extends Component {
         mins: newtimerlimit,
         min2: newtimerlimit - 1,
         seconds: 0,
-        sec2: 60,
+        sec2: 59,
       })
     }
   }
@@ -39,7 +39,7 @@ class DigitalTimer extends Component {
         mins: timerlimit,
         min2: newtimerlimit,
         seconds: 0,
-        sec2: 60,
+        sec2: 59,
       })
     }
   }
@@ -64,7 +64,7 @@ class DigitalTimer extends Component {
     let sec
     if (sec2 === 0) {
       min = min2 - 1
-      sec = 60
+      sec = 59
     } else {
       min = min2
       if (sec2 > 0) {
@@ -74,7 +74,7 @@ class DigitalTimer extends Component {
     this.setState(prevState => ({
       min2: min,
       mins: min,
-      seconds: prevState.sec2 - 1,
+      seconds: sec,
       sec2: sec,
     }))
   }
@@ -84,7 +84,7 @@ class DigitalTimer extends Component {
     this.setState({
       min2: 24,
       mins: 25,
-      sec2: 60,
+      sec2: 59,
       seconds: 0,
       timerlimit: 25,
       startState: true,
